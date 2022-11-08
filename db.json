@@ -1,16 +1,14 @@
 {
-  "posts":[
+  "products" : [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": 1,
+      "name": "Quan slip",
+      "price": 200
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 2,
+      "name": "Quan xi",
+      "price": 10000
     }
   ]
 }
