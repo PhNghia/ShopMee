@@ -1,3 +1,5 @@
-fetch("http://localhost:3000/products")
+const url = "https://pure-thicket-73916.herokuapp.com"
+
+fetch(`${url}/products`)
     .then(res => res.json())
     .then(res => console.log(res))
